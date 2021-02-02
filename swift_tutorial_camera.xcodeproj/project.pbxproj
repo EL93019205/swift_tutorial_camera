@@ -13,6 +13,8 @@
 		3A6FF55925C99F22007407C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FF55725C99F22007407C8 /* Main.storyboard */; };
 		3A6FF55B25C99F24007407C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FF55A25C99F24007407C8 /* Assets.xcassets */; };
 		3A6FF55E25C99F24007407C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FF55C25C99F24007407C8 /* LaunchScreen.storyboard */; };
+		3A6FF56825C9A211007407C8 /* CheckPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FF56725C9A211007407C8 /* CheckPermission.swift */; };
+		3A6FF56C25C9AFA5007407C8 /* iPhoneSE.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FF56B25C9AFA5007407C8 /* iPhoneSE.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3A6FF55A25C99F24007407C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6FF55D25C99F24007407C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A6FF55F25C99F24007407C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6FF56725C9A211007407C8 /* CheckPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPermission.swift; sourceTree = "<group>"; };
+		3A6FF56B25C9AFA5007407C8 /* iPhoneSE.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneSE.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				3A6FF55125C99F22007407C8 /* AppDelegate.swift */,
 				3A6FF55325C99F22007407C8 /* SceneDelegate.swift */,
 				3A6FF55525C99F22007407C8 /* ViewController.swift */,
+				3A6FF56725C9A211007407C8 /* CheckPermission.swift */,
 				3A6FF55725C99F22007407C8 /* Main.storyboard */,
 				3A6FF55A25C99F24007407C8 /* Assets.xcassets */,
 				3A6FF55C25C99F24007407C8 /* LaunchScreen.storyboard */,
 				3A6FF55F25C99F24007407C8 /* Info.plist */,
+				3A6FF56B25C9AFA5007407C8 /* iPhoneSE.storyboard */,
 			);
 			path = swift_tutorial_camera;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A6FF55E25C99F24007407C8 /* LaunchScreen.storyboard in Resources */,
+				3A6FF56C25C9AFA5007407C8 /* iPhoneSE.storyboard in Resources */,
 				3A6FF55B25C99F24007407C8 /* Assets.xcassets in Resources */,
 				3A6FF55925C99F22007407C8 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 				3A6FF55625C99F22007407C8 /* ViewController.swift in Sources */,
 				3A6FF55225C99F22007407C8 /* AppDelegate.swift in Sources */,
 				3A6FF55425C99F22007407C8 /* SceneDelegate.swift in Sources */,
+				3A6FF56825C9A211007407C8 /* CheckPermission.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jun-web-free.swift-tutorial-camera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jun-web-free.swift-tutorial-camera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

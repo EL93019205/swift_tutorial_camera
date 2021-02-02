@@ -17,6 +17,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        var storyboard = UIStoryboard()
+        let height = UIScreen.main.bounds.size.height
+        let width = UIScreen.main.bounds.size.width
+        print("width=\(width)")
+        print("height=\(height)")
+        if height == 667{
+            storyboard = UIStoryboard(name: "iPhoneSE", bundle: nil)
+        }
+        if height == 736{
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+        }
+        if height == 812{
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+        }
+        if height == 896{
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+        }
+        if height == 1112{
+            storyboard = UIStoryboard(name: "iPad", bundle: nil)
+        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -46,7 +67,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
 
 }
 
